@@ -11,7 +11,10 @@ def in_array(array1, array2):
 
     return(in_list)
 
-
+array1 = ["hi", "bye", "sar"]
+array2 = ["hibrew", "test", "bye bye", "sarcasm", "sars"]
+print(f"The two arrays are:{array1}, {array2}")
+print(in_array(array1, array2))
 print(in_array(["hi", "bye", "sar"], ["hibrew", "test", "bye bye", "sarcasm", "sars"]))
 
 # the same code just pretending to have made changes
